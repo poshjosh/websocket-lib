@@ -1,0 +1,7 @@
+looseboxes:
+  websocket:
+    allowed-origins:
+      - http://localhost:${server.port}
+    application-destination-prefixes: 
+      - /messaging
+    
